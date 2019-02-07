@@ -20,6 +20,17 @@ body {
   /* background: url(../images/body-bg.png) repeat fixed; */
 }
 
+.kepala{
+  height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  .kepala{
+    height: 300px;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   .gmaps{
     width: 300px;
